@@ -56,7 +56,7 @@ class Reactor(object):
             self.repeat, parse_interval(self.options['repeat_interval']))
 
     def reinit(self, *args, **options):
-        LOGGER.info('Read configuration')
+        LOGGER.info('Amirhossein Read configuration')
 
         self.options.update(options)
 
